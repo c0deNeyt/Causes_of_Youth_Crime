@@ -2569,12 +2569,11 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+            max-height: 45vh;
 		}
-
 		.image.left, .image.right {
 			max-width: 40%;
 		}
