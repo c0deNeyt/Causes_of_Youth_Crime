@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
     --primary-clr: #002612;
     --primary-clr: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(111,36,7,1) 100%);
     --selected-grad: linear-gradient(to right, #732000, #ff7c2c);
-    --sec3-primary-clr: #4e6db73d;
+    --sec3-primary-clr: #634640;
     --sec4-primary-clr: #001101;
     --header: #521D0C;
  }
