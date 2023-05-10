@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
     --primary-clr: #002612;
     --primary-clr: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(111,36,7,1) 100%);
     --selected-grad: linear-gradient(to right, #732000, #ff7c2c);
+    --intro-grad: linear-gradient(90deg, rgba(111,36,7,1) 0%, rgba(94,114,150,1) 62%);
     --sec3-primary-clr: #634640;
     --sec4-primary-clr: #001101;
     --header: #521D0C;
@@ -2572,7 +2573,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.25em;
 			display: block;
-            max-height: 45vh;
+            max-height: 50vh;
 		}
 		.image.left, .image.right {
 			max-width: 40%;
@@ -3249,7 +3250,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: var(--primary-clr);
+			background-color: var(--intro-grad);
+			background: var(--intro-grad);
+            min-height: 100vh;
 		}
 
 		.wrapper.style2-alt {
