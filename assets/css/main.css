@@ -27,7 +27,8 @@ footer, header, hgroup, menu, nav, section {
     --primary-clr: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(111,36,7,1) 100%);
     --selected-grad: linear-gradient(to right, #732000, #ff7c2c);
     --intro-grad: linear-gradient(90deg, rgba(111,36,7,1) 0%, rgba(94,114,150,1) 62%);
-    --sec3-primary-clr: #634640;
+    --sec3-grad: linear-gradient(90deg, rgba(255,124,44,1) 0%, rgba(202,194,185,1) 62%);
+    --sec3-primary-clr: rgb(255,124,44);
     --sec4-primary-clr: #001101;
     --header: #521D0C;
  }
@@ -3086,6 +3087,9 @@ input, select, textarea {
 			transform: translateX(-1em);
 			opacity: 0;
 		}
+        section#two.wrapper.style3.spotlights section div.content * {
+	        color: black;
+        }
 
 		@media screen and (max-width: 1680px) {
 
@@ -3260,7 +3264,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: var(--sec3-primary-clr);
+			background-color: var(--sec3-grad);
+            background: var(--sec3-grad);
+            min-height: 100vh;
 		}
 
 		.wrapper.style3-alt {
