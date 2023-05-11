@@ -3035,6 +3035,10 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+			.spotlights > section > .image:before {
+				background: var(--sec3-grad);
+			}
+
 
 		.spotlights > section > .content {
 			padding: 4em 5em 2em 5em ;
@@ -3090,7 +3094,7 @@ input, select, textarea {
         section#two.wrapper.style3.spotlights section div.content * {
 	        color: black;
         }
-
+        
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
